@@ -1,0 +1,11 @@
+/*
+Light grayish orange - #F8EFEA
+Soft yellow - #DED369
+Soft red - #E0475B
+Very dark green - #192F01
+*/
+
+.body {
+  background-color: #f8efea;
+  font-family: "Lato", sans-serif;
+}
