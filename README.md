@@ -1,5 +1,5 @@
 
-![Logo](https://miro.medium.com/max/1200/1*P_wUre75IHZUQYFjoD7GZA.png)
+![Logo](/images/logo/logo.png)
 
 
 # Odin Recipes Project
