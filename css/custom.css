@@ -7,7 +7,7 @@ Very dark green - #192F01
 
 body {
   font-family: "Lato", sans-serif;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .nav-logo,
