@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Odin Recipes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" type="image/jpg" href="/images/logo/favicon.png" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
     </style>
@@ -19,7 +21,7 @@
 
 <body>
     <!--start navbar-->
-    <nav class="navbar navbar-expand-lg fixed-top bg-faded">
+    <nav class="navbar navbar-expand-lg fixed-top bg-faded bg-gradient">
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html">
                 <img class="nav-logo" src="/images/logo/logo.png" alt="odin logo">
@@ -34,49 +36,80 @@
             <h1 class=" text-uppercase recipes-header">Recipes</h1>
             <div class="row mt-5 ">
                 <div class="owl-carousel owl-theme">
-                    <div class="item mb-4 five-padding">
-                        <div class="card border-0 shadow">
-                            <div class="card-body bg-dark">
-                                <img src="/images/recipes/banana pancakes.webp" alt="banana pancakes"
-                                    class="card-img-top">
+                    <!--item 01 -->
+                    <div class="item mb-4 five-padding ">
+                        <div class="card border-0">
+                            <div class="card-body bg-dark bg-gradient rounded ">
                                 <h5 class="card-title text-center text-uppercase mt-2">Banana Pancakes
                                 </h5>
+                                <img src="/images/recipes/01.webp" alt="banana pancakes" class="card-img">
                                 <div class=" mx-auto mt-3 mb-3 text-center">
                                     <button id="MybtnModal" type="button" class="btn btn-warning text-uppercase button "
-                                        data-bs-toggle="modal" data-bs-target="#Mymodal">See Recipe</button>
+                                        data-bs-toggle="modal" data-bs-target="#Mymodal1">See Recipe</button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!--item 02 -->
+                    <div class="item mb-4 five-padding ">
+                        <div class="card border-0">
+                            <div class="card-body bg-dark bg-gradient rounded ">
+                                <h5 class="card-title text-center text-uppercase mt-2">Watermelon Salad
+                                </h5>
+                                <img src="/images/recipes/02.webp" alt="banana pancakes" class="card-img">
+                                <div class=" mx-auto mt-3 mb-3 text-center">
+                                    <button id="MybtnModal" type="button" class="btn btn-warning text-uppercase button "
+                                        data-bs-toggle="modal" data-bs-target="#Mymodal2">See Recipe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--item 03 -->
+                    <div class="item mb-4 five-padding ">
+                        <div class="card border-0">
+                            <div class="card-body bg-dark bg-gradient rounded ">
+                                <h5 class="card-title text-center text-uppercase mt-2">Zucchini Casserole</h5>
+                                <img src="/images/recipes/03.webp" alt="banana pancakes" class="card-img">
+                                <div class=" mx-auto mt-3 mb-3 text-center">
+                                    <button id="MybtnModal" type="button" class="btn btn-warning text-uppercase button "
+                                        data-bs-toggle="modal" data-bs-target="#Mymodal3">See Recipe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <!--start modal-->
+                <!--start modal 1-->
                 <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-                    aria-labelledby="staticBackdropLabel" aria-hidden="true" id="Mymodal">
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true" id="Mymodal1">
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                        <div class="modal-content bg-dark">
+                        <div class="modal-content bg-dark bg-gradient">
                             <div class="modal-header">
                                 <h2 class="modal-title" id="staticBackdropLabel">Banana Pancakes</h2>
                             </div>
                             <div class="modal-body">
                                 <h5 class="modal-title">INGREDIENTS</h5>
-                                <ul class="list-group list-group-flush ">
-                                    <li class="list-group-item">1 cup all-purpose flour</li>
+                                <ul class="list-group list-group-flush rounded">
+                                    <li class="list-group-item">1 cup all-purpose
+                                        flour</li>
                                     <li class="list-group-item">⅔ cup whole wheat flour</li>
                                     <li class="list-group-item">¼ teaspoon salt</li>
-                                    <li class="list-group-item">2 ½ teaspoons baking powder</li>
+                                    <li class="list-group-item">2 ½ teaspoons baking powder</li>
                                     <li class="list-group-item">2 tablespoons white sugar</li>
-                                    <li class="list-group-item">1 ½ cups buttermilk</li>
+                                    <li class="list-group-item">1 ½ cups buttermilk</li>
                                     <li class="list-group-item">2 small ripe bananas, finely chopped</li>
                                 </ul>
                                 <br />
                                 <ul class="list-group list-group-flush">
                                     <h5 class="modal-title">Step 1</h5>
-                                    <li class="list-group-item">In a large bowl, mix all-purpose flour, whole wheat
+                                    <li class="list-group-item rounded">In a large bowl, mix all-purpose flour,
+                                        whole wheat
                                         flour, salt, baking powder and sugar. Stir in buttermilk and bananas
                                         just until moistened.</li>
                                     <h5 class="modal-title">Step 2</h5>
-                                    <li class="list-group-item">Heat a lightly oiled griddle or frying pan over medium
+                                    <li class="list-group-item rounded">Heat a lightly oiled griddle or frying
+                                        pan over medium
                                         high heat. Pour or scoop the batter onto the griddle, using
                                         approximately 1/4 cup for each pancake. Brown on both sides and serve hot.</li>
                                 </ul>
@@ -88,7 +121,114 @@
                         </div>
                     </div>
                 </div>
-                <!--end modal-->
+                <!--end modal 1-->
+
+                <!--start modal 2-->
+                <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true" id="Mymodal2">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content bg-dark bg-gradient">
+                            <div class="modal-header">
+                                <h2 class="modal-title" id="staticBackdropLabel">Watermelon Salad</h2>
+                            </div>
+                            <div class="modal-body">
+                                <h5 class="modal-title">INGREDIENTS</h5>
+                                <ul class="list-group list-group-flush rounded">
+                                    <li class="list-group-item ">1 cup apple cider vinegar</li>
+                                    <li class="list-group-item">¼ cup Worcestershire sauce</li>
+                                    <li class="list-group-item">½ cup vegetable oil</li>
+                                    <li class="list-group-item">1 tablespoon sesame seeds</li>
+                                    <li class="list-group-item">1 tablespoon poppy seeds</li>
+                                    <li class="list-group-item">¼ cup white sugar</li>
+                                    <li class="list-group-item">1 (10 ounce) bag baby spinach leaves</li>
+                                    <li class="list-group-item">2 cups cubed seeded watermelon</li>
+                                    <li class="list-group-item">1 small red onion, thinly sliced</li>
+                                    <li class="list-group-item">1 cup chopped pecans, toasted</li>
+                                    <li class="list-group-item">1 cup mint leaves, finely chopped</li>
+                                </ul>
+                                <br />
+                                <ul class="list-group list-group-flush">
+                                    <h5 class="modal-title">Step 1</h5>
+                                    <li class="list-group-item rounded">In a small bowl, whisk together the apple cider
+                                        vinegar, Worcestershire sauce, vegetable oil, sesame seeds, poppy seeds
+                                        and sugar. Set aside.</li>
+                                    <h5 class="modal-title">Step 2</h5>
+                                    <li class="list-group-item rounded">In a large serving bowl, combine the spinach,
+                                        watermelon, onion, pecans and mint. Toss with the dressing just before
+                                        serving.</li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning button"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal 2-->
+
+                <!--start modal 3-->
+                <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true" id="Mymodal3">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content bg-dark bg-gradient">
+                            <div class="modal-header">
+                                <h2 class="modal-title" id="staticBackdropLabel">Watermelon Salad</h2>
+                            </div>
+                            <div class="modal-body">
+                                <h5 class="modal-title">INGREDIENTS</h5>
+                                <ul class="list-group list-group-flush rounded">
+                                    <li class="list-group-item ">3 medium zucchinis, sliced</li>
+                                    <li class="list-group-item">2 medium onions, sliced</li>
+                                    <li class="list-group-item">3 tablespoons olive oil</li>
+                                    <li class="list-group-item">salt and ground black pepper to taste</li>
+                                    <li class="list-group-item">1 (16 ounce) package penne pasta</li>
+                                    <li class="list-group-item">1 (28 ounce) jar marinara sauce</li>
+                                    <li class="list-group-item">½ cup grated Parmesan cheese</li>
+                                </ul>
+                                <br />
+                                <ul class="list-group list-group-flush">
+                                    <h5 class="modal-title">Step 1</h5>
+                                    <li class="list-group-item rounded">Preheat oven to 400 degrees F (200 degrees C).
+                                    </li>
+                                    <h5 class="modal-title">Step 2</h5>
+                                    <li class="list-group-item rounded">Toss zucchinis and onions in a large bowl with
+                                        olive oil until evenly coated. Spread vegetables into a large baking
+                                        dish.</li>
+                                    <h5 class="modal-title">Step 3</h5>
+                                    <li class="list-group-item rounded">Roast vegetables in the preheated oven until
+                                        golden, about 30 minutes. Season with salt and pepper. Reduce oven heat to
+                                        350 degrees F (175 degrees C).</li>
+                                    <h5 class="modal-title">Step 4</h5>
+                                    <li class="list-group-item rounded">Fill a large pot with lightly salted water and
+                                        bring to a boil. Stir in penne and return to a boil. Cook pasta
+                                        uncovered, stirring occasionally, until cooked through but still firm to the
+                                        bite, about 11 minutes; drain.</li>
+                                    <h5 class="modal-title">Step 5</h5>
+                                    <li class="list-group-item rounded">Lightly grease a 9x13-inch baking dish.</li>
+                                    <h5 class="modal-title">Step 6</h5>
+                                    <li class="list-group-item rounded">Heat marinara sauce in a saucepan over medium
+                                        heat until sauce is hot. Spread hot marinara sauce into the prepared
+                                        baking dish, followed by penne pasta and zucchini mixture. Sprinkle Parmesan
+                                        cheese atop vegetables.</li>
+                                    <h5 class="modal-title">Step 7</h5>
+                                    <li class="list-group-item rounded">Bake in the preheated oven until sauce is
+                                        bubbly, 35 to 40 minutes. Allow casserole to rest for 5 minutes before
+                                        serving.</li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning button"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal 3-->
+
+
+
+
 
             </div>
     </section>
@@ -104,7 +244,7 @@
 
     <!--start footer-->
     <footer>
-        <div class="text-center fixed-bottom p-4 bg-faded">
+        <div class="text-center fixed-bottom p-2 bg-faded bg-gradient">
             Copyright © 2022 | Francisco Machado Carreiro
         </div>
     </footer>
@@ -112,7 +252,6 @@
 </body>
 
 <!--start scripts-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="/js/carousel.custom.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
