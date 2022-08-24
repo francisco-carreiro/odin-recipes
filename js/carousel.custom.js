@@ -6,24 +6,20 @@ $(".owl-carousel").owlCarousel({
     0: {
       items: 1,
     },
+    400: {
+      items: 2,
+    },
     600: {
       items: 3,
+    },
+    900: {
+      items: 4,
     },
     1000: {
       items: 5,
     },
     1900: {
-      items: 5,
+      items: 6,
     },
   },
-});
-
-var owl = $(".owl-carousel");
-owl.owlCarousel({
-  items: 4,
-  loop: true,
-  margin: 10,
-  autoplay: true,
-  autoplayTimeout: 1000,
-  autoplayHoverPause: true,
 });

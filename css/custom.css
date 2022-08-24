@@ -1,13 +1,11 @@
 /*
-Light grayish orange - #F8EFEA
-Soft yellow - #DED369
-Soft red - #E0475B
-Very dark green - #192F01
+Font color - #e3b261
+Background - #1A1A1A 
 */
 
 body {
   font-family: "Lato", sans-serif;
-  color: rgb(0, 0, 0);
+  color: #EEB34B;
 }
 
 .nav-logo,
@@ -61,4 +59,15 @@ body {
 
 .mt-xxl-20 {
   margin-top: 12rem !important;
+}
+
+.mb-20 {
+  margin-bottom: 12rem !important;
+}
+
+.card-body,
+.card {
+  border-radius: 5%;
+  background-color: #1A1A1A;
+
 }

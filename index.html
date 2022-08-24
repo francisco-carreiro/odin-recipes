@@ -28,8 +28,8 @@
 
     <!--start carousel-->
     <section>
-        <div class="container-fluid mt-20 mt-sm-20 mt-md-20 mt-lg-20 mt-xl-20 mt-xxl-20">
-            <h1 class="text-center text-uppercase">Recipes</h1>
+        <div class="container-fluid mt-20 mt-sm-20 mt-md-20 mt-lg-20 mt-xl-20 mt-xxl-20 mb-5">
+            <h1 class="text-center text-uppercase recipes-header">Recipes</h1>
             <div class="row mt-5 ">
                 <div class="owl-carousel owl-theme">
                     <div class="item mb-4">
@@ -37,7 +37,7 @@
                             <div class="card-body">
                                 <h5 class="card-title text-center text-uppercase">Banana Pancakes</h5>
                                 <img src="/images/recipes/banana pancakes.webp" alt="banana pancakes" class="card-img">
-                                <div class="d-grid gap-2 d-md-block mx-auto mt-3 text-center">
+                                <div class="d-grid gap-3 d-md-block mx-auto mt-3 text-center">
                                     <button href="#" class="btn btn-primary text-uppercase " type="button">See
                                         detail</button>
                                 </div>
@@ -70,5 +70,13 @@
 <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="/js/carousel.custom.js"></script>
+<script>var owl = $(".owl-carousel");
+    owl.owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+    });</script>
+
 
 </html>
