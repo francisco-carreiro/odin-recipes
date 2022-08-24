@@ -18,7 +18,7 @@ body {
 }
 
 .bg-faded {
-  background-color: #c2c2c25d;
+  background-color: rgba(0, 0, 0, 0.61);
   z-index: 0;
   box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.35);
 }
@@ -26,7 +26,8 @@ body {
 .banner_image {
   inset: 0;
   background-size: cover;
-  overflow: hidden;
+  width: auto !important;
+  overflow: hidden !important;
   position: fixed;
   filter: blur(4px);
   z-index: -1;
@@ -65,9 +66,36 @@ body {
   margin-bottom: 12rem !important;
 }
 
+.recipes-header {
+  font-family: "Lato",
+    sans-serif;
+  font-size: xx-large;
+  font-weight: 800;
+  background-color: #343a40af;
+  border-radius: 15px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .card-body,
 .card {
-  border-radius: 5%;
-  background-color: #1A1A1A;
+  border: #EEB34B 2px solid;
+  border-radius: 2%;
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.35);
+  padding: 0px !important;
+}
 
+.five-padding {
+  padding: 5px !important;
+}
+
+.button {
+  background-color: #EEB34B !important;
+  border-color: white;
+}
+
+.button:hover {
+  background-color: #d19733 !important;
+  border-color: rgb(146, 146, 146);
 }

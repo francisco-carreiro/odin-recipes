@@ -10,9 +10,10 @@
         @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
     </style>
     <link rel="stylesheet" type="text/css" media="screen" href="/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/custom.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/custom.css">
+
 </head>
 
 <body>
@@ -32,14 +33,15 @@
             <h1 class="text-center text-uppercase recipes-header">Recipes</h1>
             <div class="row mt-5 ">
                 <div class="owl-carousel owl-theme">
-                    <div class="item mb-4">
+                    <div class="item mb-4 five-padding">
                         <div class="card border-0 shadow">
-                            <div class="card-body">
-                                <h5 class="card-title text-center text-uppercase">Banana Pancakes</h5>
-                                <img src="/images/recipes/banana pancakes.webp" alt="banana pancakes" class="card-img">
-                                <div class="d-grid gap-3 d-md-block mx-auto mt-3 text-center">
-                                    <button href="#" class="btn btn-primary text-uppercase " type="button">See
-                                        detail</button>
+                            <div class="card-body bg-dark">
+                                <img src="/images/recipes/banana pancakes.webp" alt="banana pancakes"
+                                    class="card-img-top">
+                                <h5 class="card-title text-center text-uppercase mt-2">Banana Pancakes</h5>
+                                <div class=" mx-auto mt-3 mb-3 text-center">
+                                    <button href="#" class="btn btn-primary text-uppercase button" type="button">See
+                                        details</button>
                                 </div>
                             </div>
                         </div>
@@ -58,25 +60,21 @@
     </section>
     <!--end banner-->
 
+    <!--start footer-->
     <footer>
         <div class="text-center fixed-bottom p-4 bg-faded">
             Copyright © 2022 | Francisco Machado Carreiro
         </div>
     </footer>
+    <!--end footer-->
 </body>
 
-<script type="text/javascript" src="/js/video_fix.js"></script>
+<!--start scripts-->
 <script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/video-fix.js"></script>
 <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="/js/carousel.custom.js"></script>
-<script>var owl = $(".owl-carousel");
-    owl.owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 1000,
-        autoplayHoverPause: true,
-    });</script>
-
+<!--end scripts-->
 
 </html>
