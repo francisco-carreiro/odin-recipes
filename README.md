@@ -29,5 +29,5 @@ The website will consist of a main index page which will have links to a few rec
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://snipboard.io/vHqNay.jpg)
 
